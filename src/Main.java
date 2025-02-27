@@ -18,10 +18,10 @@ public class Main {
         float hours = scan.nextFloat();
 
         float cal = CalculationsKt.calculate(wage, days, hours);
-        float itemCalculate = (int)(int)item / cal;
+        float itemCalculate = item / cal;
 
         System.out.println("You Will Have to Wait: "
-                + (int)(int)itemCalculate + " Weeks for Item That is: $" + item );
+                + (int)itemCalculate + " Weeks for Item That is: $" + item );
 
     }
 }
